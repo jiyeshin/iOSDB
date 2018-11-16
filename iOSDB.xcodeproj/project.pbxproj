@@ -12,6 +12,38 @@
 		6511B8BB219BB47600FF26DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6511B8B9219BB47600FF26DC /* Main.storyboard */; };
 		6511B8BD219BB47800FF26DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6511B8BC219BB47800FF26DC /* Assets.xcassets */; };
 		6511B8C0219BB47800FF26DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6511B8BE219BB47800FF26DC /* LaunchScreen.storyboard */; };
+		6511B8CE219BB64700FF26DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6511B8CD219BB64700FF26DC /* AppDelegate.swift */; };
+		6511B8D0219BB64700FF26DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6511B8CF219BB64700FF26DC /* ViewController.swift */; };
+		6511B8D3219BB64700FF26DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6511B8D1219BB64700FF26DC /* Main.storyboard */; };
+		6511B8D5219BB64800FF26DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6511B8D4219BB64800FF26DC /* Assets.xcassets */; };
+		6511B8D8219BB64800FF26DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6511B8D6219BB64800FF26DC /* LaunchScreen.storyboard */; };
+		6511B8DF219BB6FB00FF26DC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6511B8DE219BB6FB00FF26DC /* libsqlite3.tbd */; };
+		6511B8EC219BBA4700FF26DC /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511B8E2219BBA4600FF26DC /* FMDatabase.m */; };
+		6511B8ED219BBA4700FF26DC /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511B8E5219BBA4600FF26DC /* FMDatabaseQueue.m */; };
+		6511B8EE219BBA4700FF26DC /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511B8E6219BBA4600FF26DC /* FMDatabasePool.m */; };
+		6511B8EF219BBA4700FF26DC /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511B8E7219BBA4600FF26DC /* FMResultSet.m */; };
+		6511B8F0219BBA4700FF26DC /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511B8E9219BBA4700FF26DC /* FMDatabaseAdditions.m */; };
+		6511B8F8219BD52A00FF26DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6511B8F7219BD52A00FF26DC /* AppDelegate.swift */; };
+		6511B8FA219BD52A00FF26DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6511B8F9219BD52A00FF26DC /* ViewController.swift */; };
+		6511B8FD219BD52B00FF26DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6511B8FB219BD52B00FF26DC /* Main.storyboard */; };
+		6511B8FF219BD54700FF26DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6511B8FE219BD54700FF26DC /* Assets.xcassets */; };
+		6511B902219BD54700FF26DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6511B900219BD54700FF26DC /* LaunchScreen.storyboard */; };
+		6511B907219BD56000FF26DC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6511B8DE219BB6FB00FF26DC /* libsqlite3.tbd */; };
+		6511B914219BD5BF00FF26DC /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511B90A219BD5BC00FF26DC /* FMDatabase.m */; };
+		6511B915219BD5BF00FF26DC /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511B90D219BD5BD00FF26DC /* FMDatabaseQueue.m */; };
+		6511B916219BD5BF00FF26DC /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511B90E219BD5BD00FF26DC /* FMDatabasePool.m */; };
+		6511B917219BD5BF00FF26DC /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511B90F219BD5BE00FF26DC /* FMResultSet.m */; };
+		6511B918219BD5BF00FF26DC /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511B911219BD5BE00FF26DC /* FMDatabaseAdditions.m */; };
+		6511B91A219BD67200FF26DC /* hr.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 6511B919219BD67200FF26DC /* hr.sqlite */; };
+		6511B91C219BD75200FF26DC /* DepartmentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6511B91B219BD75200FF26DC /* DepartmentListViewController.swift */; };
+		6511B91E219BEFE100FF26DC /* DepartDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6511B91D219BEFE100FF26DC /* DepartDAO.swift */; };
+		6538DA3D219E50A200C61E84 /* LogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6538DA3C219E50A200C61E84 /* LogVC.swift */; };
+		6585298B219D101400509015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6585298A219D101400509015 /* AppDelegate.swift */; };
+		65852990219D101400509015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6585298E219D101400509015 /* Main.storyboard */; };
+		65852993219D101400509015 /* CoreData1115.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65852991219D101400509015 /* CoreData1115.xcdatamodeld */; };
+		65852995219D101700509015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65852994219D101700509015 /* Assets.xcassets */; };
+		65852998219D101700509015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65852996219D101700509015 /* LaunchScreen.storyboard */; };
+		6585299E219D11A100509015 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6585299D219D11A100509015 /* ListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +54,84 @@
 		6511B8BC219BB47800FF26DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6511B8BF219BB47800FF26DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6511B8C1219BB47800FF26DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6511B8CB219BB64700FF26DC /* SQLiteUse1114.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLiteUse1114.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6511B8CD219BB64700FF26DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6511B8CF219BB64700FF26DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6511B8D2219BB64700FF26DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6511B8D4219BB64800FF26DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6511B8D7219BB64800FF26DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6511B8D9219BB64800FF26DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6511B8DE219BB6FB00FF26DC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6511B8E0219BBA4500FF26DC /* SQLiteUse1114-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQLiteUse1114-Bridging-Header.h"; sourceTree = "<group>"; };
+		6511B8E1219BBA4600FF26DC /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		6511B8E2219BBA4600FF26DC /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		6511B8E3219BBA4600FF26DC /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		6511B8E4219BBA4600FF26DC /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		6511B8E5219BBA4600FF26DC /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		6511B8E6219BBA4600FF26DC /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		6511B8E7219BBA4600FF26DC /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		6511B8E8219BBA4700FF26DC /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		6511B8E9219BBA4700FF26DC /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		6511B8EA219BBA4700FF26DC /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		6511B8EB219BBA4700FF26DC /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		6511B8F5219BD52900FF26DC /* HR1114.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HR1114.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6511B8F7219BD52A00FF26DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6511B8F9219BD52A00FF26DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6511B8FC219BD52B00FF26DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6511B8FE219BD54700FF26DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6511B901219BD54700FF26DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6511B903219BD54700FF26DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6511B908219BD5B800FF26DC /* HR1114-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HR1114-Bridging-Header.h"; sourceTree = "<group>"; };
+		6511B909219BD5BC00FF26DC /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		6511B90A219BD5BC00FF26DC /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		6511B90B219BD5BC00FF26DC /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		6511B90C219BD5BD00FF26DC /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		6511B90D219BD5BD00FF26DC /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		6511B90E219BD5BD00FF26DC /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		6511B90F219BD5BE00FF26DC /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		6511B910219BD5BE00FF26DC /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		6511B911219BD5BE00FF26DC /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		6511B912219BD5BE00FF26DC /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		6511B913219BD5BF00FF26DC /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		6511B919219BD67200FF26DC /* hr.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = hr.sqlite; sourceTree = "<group>"; };
+		6511B91B219BD75200FF26DC /* DepartmentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentListViewController.swift; sourceTree = "<group>"; };
+		6511B91D219BEFE100FF26DC /* DepartDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartDAO.swift; sourceTree = "<group>"; };
+		6538DA3C219E50A200C61E84 /* LogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogVC.swift; sourceTree = "<group>"; };
+		65852988219D101400509015 /* CoreData1115.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData1115.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6585298A219D101400509015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6585298F219D101400509015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65852992219D101400509015 /* CoreData1115.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData1115.xcdatamodel; sourceTree = "<group>"; };
+		65852994219D101700509015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65852997219D101700509015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65852999219D101800509015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6585299D219D11A100509015 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6511B8AF219BB47500FF26DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6511B8C8219BB64700FF26DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6511B8DF219BB6FB00FF26DC /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6511B8F2219BD52900FF26DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6511B907219BD56000FF26DC /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65852985219D101400509015 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,7 +145,11 @@
 			isa = PBXGroup;
 			children = (
 				6511B8B4219BB47600FF26DC /* iOSDB */,
+				6511B8CC219BB64700FF26DC /* SQLiteUse1114 */,
+				6511B8F6219BD52A00FF26DC /* HR1114 */,
+				65852989219D101400509015 /* CoreData1115 */,
 				6511B8B3219BB47600FF26DC /* Products */,
+				6511B8DD219BB6FB00FF26DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +157,9 @@
 			isa = PBXGroup;
 			children = (
 				6511B8B2219BB47600FF26DC /* iOSDB.app */,
+				6511B8CB219BB64700FF26DC /* SQLiteUse1114.app */,
+				6511B8F5219BD52900FF26DC /* HR1114.app */,
+				65852988219D101400509015 /* CoreData1115.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +175,82 @@
 				6511B8C1219BB47800FF26DC /* Info.plist */,
 			);
 			path = iOSDB;
+			sourceTree = "<group>";
+		};
+		6511B8CC219BB64700FF26DC /* SQLiteUse1114 */ = {
+			isa = PBXGroup;
+			children = (
+				6511B8E3219BBA4600FF26DC /* FMDatabase.h */,
+				6511B8E2219BBA4600FF26DC /* FMDatabase.m */,
+				6511B8E8219BBA4700FF26DC /* FMDatabaseAdditions.h */,
+				6511B8E9219BBA4700FF26DC /* FMDatabaseAdditions.m */,
+				6511B8EA219BBA4700FF26DC /* FMDatabasePool.h */,
+				6511B8E6219BBA4600FF26DC /* FMDatabasePool.m */,
+				6511B8E4219BBA4600FF26DC /* FMDatabaseQueue.h */,
+				6511B8E5219BBA4600FF26DC /* FMDatabaseQueue.m */,
+				6511B8EB219BBA4700FF26DC /* FMDB.h */,
+				6511B8E1219BBA4600FF26DC /* FMResultSet.h */,
+				6511B8E7219BBA4600FF26DC /* FMResultSet.m */,
+				6511B8CD219BB64700FF26DC /* AppDelegate.swift */,
+				6511B8CF219BB64700FF26DC /* ViewController.swift */,
+				6511B8D1219BB64700FF26DC /* Main.storyboard */,
+				6511B8D4219BB64800FF26DC /* Assets.xcassets */,
+				6511B8D6219BB64800FF26DC /* LaunchScreen.storyboard */,
+				6511B8D9219BB64800FF26DC /* Info.plist */,
+				6511B8E0219BBA4500FF26DC /* SQLiteUse1114-Bridging-Header.h */,
+			);
+			path = SQLiteUse1114;
+			sourceTree = "<group>";
+		};
+		6511B8DD219BB6FB00FF26DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6511B8DE219BB6FB00FF26DC /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6511B8F6219BD52A00FF26DC /* HR1114 */ = {
+			isa = PBXGroup;
+			children = (
+				6511B919219BD67200FF26DC /* hr.sqlite */,
+				6511B90B219BD5BC00FF26DC /* FMDatabase.h */,
+				6511B90A219BD5BC00FF26DC /* FMDatabase.m */,
+				6511B910219BD5BE00FF26DC /* FMDatabaseAdditions.h */,
+				6511B911219BD5BE00FF26DC /* FMDatabaseAdditions.m */,
+				6511B912219BD5BE00FF26DC /* FMDatabasePool.h */,
+				6511B90E219BD5BD00FF26DC /* FMDatabasePool.m */,
+				6511B90C219BD5BD00FF26DC /* FMDatabaseQueue.h */,
+				6511B90D219BD5BD00FF26DC /* FMDatabaseQueue.m */,
+				6511B913219BD5BF00FF26DC /* FMDB.h */,
+				6511B909219BD5BC00FF26DC /* FMResultSet.h */,
+				6511B90F219BD5BE00FF26DC /* FMResultSet.m */,
+				6511B8F7219BD52A00FF26DC /* AppDelegate.swift */,
+				6511B8F9219BD52A00FF26DC /* ViewController.swift */,
+				6511B8FB219BD52B00FF26DC /* Main.storyboard */,
+				6511B8FE219BD54700FF26DC /* Assets.xcassets */,
+				6511B900219BD54700FF26DC /* LaunchScreen.storyboard */,
+				6511B903219BD54700FF26DC /* Info.plist */,
+				6511B908219BD5B800FF26DC /* HR1114-Bridging-Header.h */,
+				6511B91B219BD75200FF26DC /* DepartmentListViewController.swift */,
+				6511B91D219BEFE100FF26DC /* DepartDAO.swift */,
+			);
+			path = HR1114;
+			sourceTree = "<group>";
+		};
+		65852989219D101400509015 /* CoreData1115 */ = {
+			isa = PBXGroup;
+			children = (
+				6585298A219D101400509015 /* AppDelegate.swift */,
+				6585298E219D101400509015 /* Main.storyboard */,
+				65852994219D101700509015 /* Assets.xcassets */,
+				65852996219D101700509015 /* LaunchScreen.storyboard */,
+				65852999219D101800509015 /* Info.plist */,
+				65852991219D101400509015 /* CoreData1115.xcdatamodeld */,
+				6585299D219D11A100509015 /* ListVC.swift */,
+				6538DA3C219E50A200C61E84 /* LogVC.swift */,
+			);
+			path = CoreData1115;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +273,57 @@
 			productReference = 6511B8B2219BB47600FF26DC /* iOSDB.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6511B8CA219BB64700FF26DC /* SQLiteUse1114 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6511B8DA219BB64800FF26DC /* Build configuration list for PBXNativeTarget "SQLiteUse1114" */;
+			buildPhases = (
+				6511B8C7219BB64700FF26DC /* Sources */,
+				6511B8C8219BB64700FF26DC /* Frameworks */,
+				6511B8C9219BB64700FF26DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLiteUse1114;
+			productName = SQLiteUse1114;
+			productReference = 6511B8CB219BB64700FF26DC /* SQLiteUse1114.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6511B8F4219BD52900FF26DC /* HR1114 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6511B904219BD54700FF26DC /* Build configuration list for PBXNativeTarget "HR1114" */;
+			buildPhases = (
+				6511B8F1219BD52900FF26DC /* Sources */,
+				6511B8F2219BD52900FF26DC /* Frameworks */,
+				6511B8F3219BD52900FF26DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HR1114;
+			productName = HR1114;
+			productReference = 6511B8F5219BD52900FF26DC /* HR1114.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65852987219D101400509015 /* CoreData1115 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6585299C219D101800509015 /* Build configuration list for PBXNativeTarget "CoreData1115" */;
+			buildPhases = (
+				65852984219D101400509015 /* Sources */,
+				65852985219D101400509015 /* Frameworks */,
+				65852986219D101400509015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreData1115;
+			productName = CoreData1115;
+			productReference = 65852988219D101400509015 /* CoreData1115.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +335,17 @@
 				ORGANIZATIONNAME = The;
 				TargetAttributes = {
 					6511B8B1219BB47500FF26DC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6511B8CA219BB64700FF26DC = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					6511B8F4219BD52900FF26DC = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					65852987219D101400509015 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -113,6 +364,9 @@
 			projectRoot = "";
 			targets = (
 				6511B8B1219BB47500FF26DC /* iOSDB */,
+				6511B8CA219BB64700FF26DC /* SQLiteUse1114 */,
+				6511B8F4219BD52900FF26DC /* HR1114 */,
+				65852987219D101400509015 /* CoreData1115 */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +382,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6511B8C9219BB64700FF26DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6511B8D8219BB64800FF26DC /* LaunchScreen.storyboard in Resources */,
+				6511B8D5219BB64800FF26DC /* Assets.xcassets in Resources */,
+				6511B8D3219BB64700FF26DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6511B8F3219BD52900FF26DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6511B902219BD54700FF26DC /* LaunchScreen.storyboard in Resources */,
+				6511B8FF219BD54700FF26DC /* Assets.xcassets in Resources */,
+				6511B8FD219BD52B00FF26DC /* Main.storyboard in Resources */,
+				6511B91A219BD67200FF26DC /* hr.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65852986219D101400509015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65852998219D101700509015 /* LaunchScreen.storyboard in Resources */,
+				65852995219D101700509015 /* Assets.xcassets in Resources */,
+				65852990219D101400509015 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,6 +422,47 @@
 			files = (
 				6511B8B8219BB47600FF26DC /* ViewController.swift in Sources */,
 				6511B8B6219BB47600FF26DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6511B8C7219BB64700FF26DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6511B8EF219BBA4700FF26DC /* FMResultSet.m in Sources */,
+				6511B8EC219BBA4700FF26DC /* FMDatabase.m in Sources */,
+				6511B8ED219BBA4700FF26DC /* FMDatabaseQueue.m in Sources */,
+				6511B8EE219BBA4700FF26DC /* FMDatabasePool.m in Sources */,
+				6511B8D0219BB64700FF26DC /* ViewController.swift in Sources */,
+				6511B8F0219BBA4700FF26DC /* FMDatabaseAdditions.m in Sources */,
+				6511B8CE219BB64700FF26DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6511B8F1219BD52900FF26DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6511B917219BD5BF00FF26DC /* FMResultSet.m in Sources */,
+				6511B914219BD5BF00FF26DC /* FMDatabase.m in Sources */,
+				6511B915219BD5BF00FF26DC /* FMDatabaseQueue.m in Sources */,
+				6511B916219BD5BF00FF26DC /* FMDatabasePool.m in Sources */,
+				6511B91C219BD75200FF26DC /* DepartmentListViewController.swift in Sources */,
+				6511B8FA219BD52A00FF26DC /* ViewController.swift in Sources */,
+				6511B918219BD5BF00FF26DC /* FMDatabaseAdditions.m in Sources */,
+				6511B91E219BEFE100FF26DC /* DepartDAO.swift in Sources */,
+				6511B8F8219BD52A00FF26DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65852984219D101400509015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6585299E219D11A100509015 /* ListVC.swift in Sources */,
+				6538DA3D219E50A200C61E84 /* LogVC.swift in Sources */,
+				6585298B219D101400509015 /* AppDelegate.swift in Sources */,
+				65852993219D101400509015 /* CoreData1115.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +481,54 @@
 			isa = PBXVariantGroup;
 			children = (
 				6511B8BF219BB47800FF26DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6511B8D1219BB64700FF26DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6511B8D2219BB64700FF26DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6511B8D6219BB64800FF26DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6511B8D7219BB64800FF26DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6511B8FB219BD52B00FF26DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6511B8FC219BD52B00FF26DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6511B900219BD54700FF26DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6511B901219BD54700FF26DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6585298E219D101400509015 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6585298F219D101400509015 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65852996219D101700509015 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65852997219D101700509015 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,6 +686,118 @@
 			};
 			name = Release;
 		};
+		6511B8DB219BB64800FF26DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SQLiteUse1114/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jy.SQLiteUse1114;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SQLiteUse1114/SQLiteUse1114-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6511B8DC219BB64800FF26DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SQLiteUse1114/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jy.SQLiteUse1114;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SQLiteUse1114/SQLiteUse1114-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6511B905219BD54700FF26DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HR1114/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jy.HR1114;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HR1114/HR1114-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6511B906219BD54700FF26DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HR1114/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jy.HR1114;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HR1114/HR1114-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6585299A219D101800509015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoreData1115/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jy.CoreData1115;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6585299B219D101800509015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoreData1115/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jy.CoreData1115;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -333,7 +819,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6511B8DA219BB64800FF26DC /* Build configuration list for PBXNativeTarget "SQLiteUse1114" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6511B8DB219BB64800FF26DC /* Debug */,
+				6511B8DC219BB64800FF26DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6511B904219BD54700FF26DC /* Build configuration list for PBXNativeTarget "HR1114" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6511B905219BD54700FF26DC /* Debug */,
+				6511B906219BD54700FF26DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6585299C219D101800509015 /* Build configuration list for PBXNativeTarget "CoreData1115" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6585299A219D101800509015 /* Debug */,
+				6585299B219D101800509015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65852991219D101400509015 /* CoreData1115.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65852992219D101400509015 /* CoreData1115.xcdatamodel */,
+			);
+			currentVersion = 65852992219D101400509015 /* CoreData1115.xcdatamodel */;
+			path = CoreData1115.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6511B8AA219BB47500FF26DC /* Project object */;
 }
